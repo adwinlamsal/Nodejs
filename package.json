@@ -1,8 +1,11 @@
 {
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.0",
     "hash.js": "^1.1.7",
+    "nodemailer": "^6.9.8",
     "proper-upper-case": "^0.1.0",
+    "qrcode": "^1.5.3",
     "slugify": "^1.6.6"
   }
 }

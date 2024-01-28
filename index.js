@@ -18,17 +18,43 @@
 
 
 
-const Upper = require("./upperCase");
+// const Upper = require("./upperCase");
 
-const niii =Upper.ProperUpperCase();
-console.log(niii);
+// const niii =Upper.ProperUpperCase();
+// console.log(niii);
 
-const newDAteTime = require("./DateTime");
+// const newDAteTime = require("./DateTime");
 
-const printvalue=newDAteTime.TimeValue();
+// const printvalue=newDAteTime.TimeValue();
 
 
-console.log(printvalue);
+// console.log(printvalue);
 
+
+
+
+
+
+const newmail =  require("../Nodejs/ForwordMail/mail")
+
+
+const value ={
+"from":"BalaramLamsal137@gmail.com",
+"to":"Balkrishnalamsal12@gmail.com",
+"subject":"Hello Krishna Lamsal",
+"text":"This is text"
+
+}
+
+
+const  SendMailEmail =(value) =>{
+
+    newmail.sendMailGmail(value);
+
+}
+
+
+
+SendMailEmail(value);
 
 
